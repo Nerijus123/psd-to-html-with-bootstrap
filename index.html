@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome=1">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css"> 
+
+    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <title>Tommy Coco</title>
+</head>
+<body>
+    <!-- header start -->
+    <header id="main-header">
+        <nav class="container navbar navbar-expand-lg navbar-light header-height">            
+            <div class="container"> 
+                <div class="logo alignLeft">
+                    <a href="#"><img src="img/logo.png" alt="logo" class="logo-img"></a>
+                </div>                              
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-toggle="collapse" 
+                        data-target="#navbarResponsive" 
+                        aria-controls="navbarResponsive" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav-list-items" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <!-- dropdown button -->
+                        <li class="nav-item active dropdown">
+                            <a  class="nav-link dropdown-toggle"
+                                role="button" 
+                                href="#" 
+                                data-toggle="dropdown" 
+                                aria-haspopup="true" 
+                                aria-expanded="false">
+                                Collections
+                                <span class="sr-only">(current)</span>
+                            </a>
+
+                            <!-- dropdown menu items -->
+                            <div id="dropdown-list-items" class="dropdown-menu shadow" aria-labelledby="navbarDropdown1">
+                                <ul>
+                                    <li><a class="dropdown-item" href="#">Shkertik</a></li>
+                                    <li><a class="dropdown-item" href="#">Cool Brand</a></li>
+                                    <li><a class="dropdown-item" href="#">Another Very Cool Brand</a></li>
+                                    <li><a class="dropdown-item" href="#">Hipster Brand</a></li>
+                                </ul> 
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Our Story</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Inspiration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Get In Touch</a>                                            
+                    </ul> 
+                    <div class="nav-icon nav-list-icons">
+                        <ul class="navbar-nav ml-auto">
+                            </li>
+                            <li class="nav-item shadow-me">
+                                    <a class="nav-link" href="#"><img src="img/zoom.png" alt="zoom"></a>
+                            </li>                                              
+                            <li class="nav-item shadow-me">
+                                    <a class="nav-link" href="#"><img src="img/avatar.png" alt="avatar"></a>
+                            </li>                                              
+                            <li class="nav-item shadow-me">
+                                    <a class="nav-link" href="#"><img src="img/bag.png" alt="bag"></a>
+                            </li>  
+                        </ul>
+                     </div>                                      
+                </div>                
+            </div>
+        </nav>
+    </header>
+    <!-- header end-->
+
+    <!-- hero section start -->
+    <section id="hero">
+        <div class="container hero-div">
+            <div class="row">
+                <div class="col-md-8 hero-xmas-div">
+                    <div class="row xmas-para-div">
+                      <div class="col-md center-text">
+                        <p class="xmas-special-class">
+                            xmas special <br />
+                            <span class="his-and-hers-class">
+                                his & hers
+                            </span>
+                        </p>                        
+                      </div>  
+                    </div>
+                    <div class="row xmas-button-div">
+                        <div class="col-md ">
+                            <button type="button" class="btn btn-primary btn-lg shadow-me">Shop now!</button>
+                        </div>
+                    </div>
+                    <div class="row xmas-scroll-div">
+                        <div class="col-md">                            
+                            <a href="#" class="scroll-down" address="true"><span class="scroll-text-dec">scroll</span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md hero-sale-div">
+                            <p class="sale-text-dec-top">
+                                sale<br />
+                                <span class="sale-text-dec-bottom">
+                                    up to 80% off
+                                </span>
+                            </p>
+                        </div>                                               
+                    </div>
+                    <div class="row">
+                        <div class="col-md hero-justin-div">
+                            <p>just in</p>
+                        </div>                   
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end  -->
+
+    <!-- carousel section start -->
+    <section id="carousel-1">
+        <div class="container">
+            <div class="carousele-title">
+                <h3>JUST IN</h3>
+            </div>
+            <div class="row d-flex align-items-center">
+
+                <!-- carusel control prev start -->
+                <div class="col-1 d-flex align-items-center justify-content-center">
+                    <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <div class="carousel-nav-icon">
+                            <img class="carousel-arr" src="img/tc-arr-L.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <!-- carusel control prev start -->
+
+                <!--Start carousel-->
+                <div class="col-10">                        
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">                
+                        <div class="carousel-inner">                            
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <!-- first slide item 1 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">                      
+                                        <img class="card-img-top " src="img/black-braclet.png" alt="black-braclet">                                   
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name Lorem ipsum dolor sit amet</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- first slide item 2 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet"> 
+                                        <img class="sale-img" src="img/sale.png" alt="sale">                                    
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p id="new-price">€33,00</p>
+                                            <p>€44,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- first slide item 3 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">                                    
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- second slide -->
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <!-- second slide item 1 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- second slide item 2 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <img class="sale-img" src="img/sale.png" alt="sale"> 
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p id="new-price">€33,00</p>
+                                            <p>€48,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- second slide item  -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+                <!--End carousel-->
+
+                    <!-- carusel control next start -->
+                    <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators" data-slide="next">
+                        <div class="carousel-nav-icon">
+                            <img class="carousel-arr" src="img/tc-arr-R.svg" alt="">
+                        </div>
+                        </a>
+                    </div>
+                    <!-- carusel control next end -->
+            </div>
+            <!-- carousel-1 start -->
+
+            <hr class="carousele-hr"> 
+
+            <!-- carousel-2  start -->
+            <div class="carousele-title">
+                <h3>most popular</h3>
+            </div>
+            <div class="row d-flex align-items-center">
+    
+                <!-- carousel-2 control prev start -->
+                <div class="col-1 d-flex align-items-center justify-content-center ">
+                    <a href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <div class="carousel-nav-icon">
+                                <img class="carousel-arr" src="img/tc-arr-L.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <!-- carousel-2 control prev end -->
+    
+                <!--second  carousel Start-->
+                <div class="col-10">                        
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">                
+                        <div class="carousel-inner">
+
+                            <!-- secound carousel first slide -->
+                            <div class="carousel-item active">
+                                <div class="row">
+
+                                    <!-- first slide item 1 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">                                 
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">                                    
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name Lorem ipsum dolor sit amet</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- first slide item 2 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet"> 
+                                        <img class="sale-img" src="img/sale.png" alt="sale">                                  
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p id="new-price">€33,00</p>
+                                            <p>€44,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- first slide item 3 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">                                    
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- second carousel second slide -->
+                            <div class="carousel-item">
+                                <div class="row">
+
+                                    <!-- second slide item 1 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- second slide item 2 -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <img class="sale-img" src="img/sale.png" alt="sale">
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p id="new-price">€33,00</p>
+                                            <p>€48,00</p>
+                                        </div>
+                                    </div>
+
+                                    <!-- second slide item  -->
+                                    <div class="col-md d-flex align-items-center justify-content-center card shadow-me">
+                                        <img class="card-img-top" src="img/black-braclet.png" alt="black-braclet">
+                                        <div class="item-description card-body">
+                                            <h5>brand name</h5>
+                                            <p>long item name</p>
+                                            <p>€33,00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                        
+                </div>
+                <!--End carousel-->
+    
+                <!-- carusel control next start -->
+                <div class="col-1 d-flex align-items-center justify-content-center"><a href="#carouselExampleIndicators" data-slide="next">
+                    <div class="carousel-nav-icon">
+                        <img class="carousel-arr" src="img/tc-arr-R.svg" alt="">
+                    </div>
+                    </a>
+                </div>
+                <!-- carusel control next end -->
+            </div>
+            <!-- carousel-2  end -->
+        </div>
+    </section>
+    <!-- carousel section end -->
+
+    <!-- inspiration section start -->
+    <section id="inspiration">
+        <div class="container inspiration-div">
+            <div class="row">
+                <div class="col-md">
+                    <h3 class="inspiration-title">inspiration</h3>
+                </div>
+            </div>
+            <!-- gallery div -->
+            <div class="container galerry-div bg-light">
+
+                <!-- first row -->
+                <div class="row">
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-8.png " alt="img-8">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-7.png" alt="img-7">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-6.png" alt="img-6">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-5.png" alt="img-5">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                </div> 
+
+                <!-- second row -->
+                <div class="row">
+                    <div class="col-md-3 gallery-div-size hovereffect" >
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-4.png" alt="img-4" data-size="300x300">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-3.png" alt="img-3">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-2.png" alt="img-2">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-3 gallery-div-size hovereffect">
+                        <img class="img-fluid gallery-img" src="img/photo-gallery-1.png" alt="img-1">
+                        <div class="overlay">                            
+                            <img class="tc-insta-big" src="img/tc-insta-big-whitte.svg" alt="">
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="row">
+                <div class="col-md">
+                   <p class="gallery-para">More on our Instagram page
+                       <embed type="image/svg+xml" src="img/tc-insta-small.svg" />
+                    </p>                                            
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- inspiration section start -->
+
+    <!-- newsletter section start -->
+    <section id="news-letter">
+        <div class="container news-letter-div">
+
+            <!-- paragraph row -->
+            <div class="row news-letter-row">
+                <div class="col-md d-flex justify-content-center">
+                    <p class="news-letter-para">Sign up to get special offers and latest news from <br /> Tommy Coco</p>
+                </div>
+            </div>
+
+            <!-- subcribe row -->
+            <div class="row news-letter-row">
+                <div class="col-md">
+                    <div class="content">
+                        <form>                            
+                            <div class="input-group">
+                                <input type="email" class="form-control" placeholder="Your Email Here">
+                                <span class="input-group-btn">
+                                    <button class="btn" type="submit">keep me updated</button>
+                                </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- newsletter section end -->
+
+    <!-- footer section start id="tommy-footer"-->
+    <footer>
+        <div class="container footer-section">
+            
+            <!-- top footer div -->
+            <div class="row top-footer">
+                <div class="col-md-1"></div>
+                <div class="col-md-2 footer-list-items">
+                    <ul>
+                        <a href=""><li>Collections</li></a>
+                        <a href=""><li>Our Story</li></a>
+                        <a href=""><li>Inspiration</li></a>
+                        <a href=""><li>Get In Touch</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-3 footer-list-items">
+                    <ul>
+                        <a href=""><li>Privacy policy</li></a>
+                        <a href=""><li>Refund policy</li></a>
+                        <a href=""><li>Shipping policy</li></a>
+                        <a href=""><li>Terms of service</li></a>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <div class="row">
+                        <div class="col-md footer-payment-para">
+                            <p>SECURE PAYMENT VIA</p>                           
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md footer-payments-img">
+                            <div>
+                                <img class="mr-2" src="img/amex.png" alt="amex">
+                                <img class="mr-2" src="img/VISA.png" alt="visa">
+                                <img class="mr-2" src="img/mastercard.png" alt="mastercard">
+                                <img class="mr-2" src="img/applepay.png" alt="applepay">
+                                <img class="mr-2" src="img/paypal.png" alt="paypal">
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="col-md-1"></div>               
+            </div> 
+
+            <hr>           
+
+            <!-- bottom footer div -->
+            <div class="row bottom-footer">
+                <div class="col-md-1"></div>
+                <div class="col-md-5 footer-joinus-div">
+                    <p>Join us on</p>
+                    <a href="#" class="btn-sm"><embed class="footer-fb-ic"src="img/tc-facebook-footer.svg" type="image/svg+xml"></a>
+                    <a href="#" class="btn-sm instag-btn"><embed class="footer-instagram-ic" src="img/tc-insta-small.svg" type="image/svg+xml"></a>      
+                </div>
+                <div class="col-md-5 footer-copyright-div">
+                    <p>	&#9400 2019, Oceans Supply | Powered by Shopify</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>                       
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
